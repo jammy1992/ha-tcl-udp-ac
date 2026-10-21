@@ -4,7 +4,7 @@
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/jammy1992/ha-tcl-udp-ac)
 [![HA Version](https://img.shields.io/badge/Home%20Assistant-2026.10%2B-blue.svg)](https://www.home-assistant.io/)
 
-本项目均由workbuddy协助开发，感谢https://github.com/morluto/rea 项目开源，通过**局域网直连**控制 TCL 壁挂空调（内置 BroadLink WiFi 模块）。无需云端、无需账号、无需 Root、无需拆机刷固件。
+本项目均由workbuddy协助开发，仅限于个人使用，切勿商用。感谢https://github.com/morluto/rea 项目开源，通过**局域网直连**控制 TCL 壁挂空调（内置 BroadLink WiFi 模块）。无需云端、无需账号、无需 Root、无需拆机刷固件。
 
 > 协议为明文 XML over UDP，控制端口 `7777`。整个交互不出局域网。
 
