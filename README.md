@@ -4,7 +4,7 @@
 [![HACS](https://img.shields.io/badge/HACS-Default-orange.svg)](https://github.com/jammy1992/ha-tcl-udp-ac)
 [![HA Version](https://img.shields.io/badge/Home%20Assistant-2026.10%2B-blue.svg)](https://www.home-assistant.io/)
 
-通过**局域网直连**控制 TCL 壁挂空调（内置 BroadLink WiFi 模块）。无需云端、无需账号、无需 Root、无需拆机刷固件。
+本项目均由workbuddy协助开发，感谢https://github.com/morluto/rea 项目开源，通过**局域网直连**控制 TCL 壁挂空调（内置 BroadLink WiFi 模块）。无需云端、无需账号、无需 Root、无需拆机刷固件。
 
 > 协议为明文 XML over UDP，控制端口 `7777`。整个交互不出局域网。
 
@@ -33,7 +33,7 @@ English version: [README_EN.md](README_EN.md)
 
 - 使用 **BroadLink WiFi 模块**的 TCL 壁挂空调（拆开室内机外壳，模块丝印可见 `3303-SBSL012001` 一类编号）
 - 能用官方「TCL智能空调」App 通过**局域网**绑定控制的机型
-- 实测机型：2017 年购入的 TCL KFR 系列，MAC `aa:bb:cc:dd:ee:ff`
+- 实测机型：2017 年生产的 TCL KFR 系列，MAC `aa:bb:cc:dd:ee:ff`
 
 > 如果你的空调用的是其他厂商的 WiFi 模块（如庆科、汉枫），协议不同，本集成不适用。
 
