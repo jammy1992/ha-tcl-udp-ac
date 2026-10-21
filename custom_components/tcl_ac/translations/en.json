@@ -1,0 +1,22 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "添加 TCL 空调",
+        "description": "填写空调信息。设备 ID 一般是 MAC 地址加 _DEVICE 后缀。\n\n例：IP 填 192.168.1.100，设备 ID 填 aabbccddeeff_device",
+        "data": {
+          "host": "IP 地址",
+          "port": "控制端口",
+          "device_id": "设备 ID"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "连接失败，请检查 IP 和网络",
+      "invalid_auth": "认证信息无效"
+    },
+    "abort": {
+      "already_configured": "该设备已添加"
+    }
+  }
+}

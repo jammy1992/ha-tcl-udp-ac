@@ -1,0 +1,10 @@
+target-version = "py314"
+line-length = 88
+src = ["custom_components"]
+
+[lint]
+select = ["E", "F", "W", "I", "UP", "B", "SIM"]
+ignore = [
+    # Home Assistant 的 _attr_* 约定就是可变类属性（列表/字典），不适用 RUF012
+    "RUF012",
+]

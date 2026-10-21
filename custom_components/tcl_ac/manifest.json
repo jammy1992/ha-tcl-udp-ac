@@ -1,0 +1,14 @@
+{
+  "domain": "tcl_ac",
+  "name": "TCL Smart AC (LAN)",
+  "codeowners": [
+    "@jammy1992"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/jammy1992/ha-tcl-udp-ac",
+  "issue_tracker": "https://github.com/jammy1992/ha-tcl-udp-ac/issues",
+  "integration_type": "device",
+  "iot_class": "local_polling",
+  "requirements": [],
+  "version": "1.0.0"
+}
